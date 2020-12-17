@@ -21,63 +21,132 @@ font:
       family: "JetBrains Mono"
       
 
+  bold:
 
-# Colors (Gruvbox dark)
+    family: "JetBrains Mono"
+
+    style: Bold
+
+
+
+  italic:
+  
+    family: "JetBrains Mono"
+
+    style: Italic
+
+
+
+  size: 11
+
+# Theme (destroy-all-software)
 
 colors:
 
-  # Default colors
-  
   primary:
   
-    # hard contrast: background = '#1d2021'
+    background: '#000000'
     
-    background: '#282828'
-    
-    # soft contrast: background = '#32302f'
-    
-    foreground: '#ebdbb2'
+    foreground: '#eeeeee'
     
 
 
-  # Normal colors
-  
   normal:
   
-    black:   '#282828'
+    black: "#4e4e4e"
     
-    red:     '#cc241d'
+    red: "#ff6c60"
     
-    green:   '#98971a'
+    green: "#a8ff60"
     
-    yellow:  '#d79921'
+    yellow: "#ffffb6"
     
-    blue:    '#458588'
+    blue: "#96cbfe"
     
-    magenta: '#b16286'
+    magenta: "#ff73fd"
     
-    cyan:    '#689d6a'
+    cyan: "#c6c5fe"
     
-    white:   '#a89984'
-    
+    white: "#eeeeee
 
 
-  # Bright colors
-  
+
   bright:
-  
-    black:   '#928374'
-    
-    red:     '#fb4934'
-    
-    green:   '#b8bb26'
-    
-    yellow:  '#fabd2f'
-    
-    blue:    '#83a598'
-    
-    magenta: '#d3869b'
-    
-    cyan:    '#8ec07c'
-    
-    white:   '#ebdbb2'
+
+    black: "#7c7c7c"
+
+    red: "#ffb6b0"
+
+    green: "#ceffab"
+
+    yellow: "#ffffcb"
+
+    blue: "#ffffcb"
+
+    magenta: "#ff9cfe"
+
+    cyan: "#dfdffe"
+
+    white: "#ffffff"
+
+
+
+# # Colors (Gruvbox dark)
+
+# colors:
+
+  # # Default colors
+
+  # primary:
+
+    # # hard contrast: background = '#1d2021'
+
+    # background: '#282828'
+
+    # # soft contrast: background = '#32302f'
+
+    # foreground: '#ebdbb2'
+
+
+
+  # # Normal colors
+
+  # normal:
+
+    # black:   '#282828'
+
+    # red:     '#cc241d'
+
+    # green:   '#98971a'
+
+    # yellow:  '#d79921'
+
+    # blue:    '#458588'
+
+    # magenta: '#b16286'
+
+    # cyan:    '#689d6a'
+
+    # white:   '#a89984'
+
+
+
+  # # Bright colors
+
+  # bright:
+
+    # black:   '#928374'
+
+    # red:     '#fb4934'
+
+    # green:   '#b8bb26'
+
+    # yellow:  '#fabd2f'
+
+    # blue:    '#83a598'
+
+    # magenta: '#d3869b'
+
+    # cyan:    '#8ec07c'
+
+    # white:   '#ebdbb2'
