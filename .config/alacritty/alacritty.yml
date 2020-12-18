@@ -18,12 +18,12 @@ font:
 
   normal:
   
-      family: "JetBrains Mono"
+      family: "Inconsolata-g"
       
 
   bold:
 
-    family: "JetBrains Mono"
+    family: "Inconsolata-g"
 
     style: Bold
 
@@ -31,13 +31,13 @@ font:
 
   italic:
   
-    family: "JetBrains Mono"
+    family: "Inconsolata-g"
 
     style: Italic
 
 
 
-  size: 11
+  size: 10
 
 # Theme (destroy-all-software)
 
@@ -129,6 +129,287 @@ colors:
 
     # white:   '#a89984'
 
+
+
+  # # Bright colors
+
+  # bright:
+
+    # black:   '#928374'
+
+    # red:     '#fb4934'
+
+    # green:   '#b8bb26'
+
+    # yellow:  '#fabd2f'
+
+    # blue:    '#83a598'
+
+    # magenta: '#d3869b'
+
+    # cyan:    '#8ec07c'
+
+    # white:   '#ebdbb2'
+shell:
+
+  program: "C:\\Windows\\System32\\wsl.exe"
+
+  args: []
+
+  
+
+key_bindings:
+
+  - { key: Space, mods: Control, chars: "\x00" }
+
+  - { key: N, mods: Control|Shift, action: SpawnNewInstance }
+
+  
+
+font:
+
+  normal:
+
+      family: "Inconsolata-g"
+
+      
+
+  bold:
+
+      family: "Inconsolata-g"
+
+      style: Bold
+
+      
+
+  italic:
+
+      family: "Inconsolata-g"
+
+      style: Italic
+
+      
+
+  size: 10
+
+ 
+
+# Colors (LuciusBlackHighContrast)
+
+colors:
+
+  # Default colors
+
+  primary:
+
+    background: '#121212'
+
+    foreground: '#eeeeee'
+
+
+  # Cursor colors
+
+  cursor:
+
+    text: '#121212'
+
+    cursor: '#afd7ff'
+
+
+  # Normal colors
+
+  normal:
+
+    black:   '#121212'
+
+    red:     '#ff8787'
+
+    green:   '#d7ffaf'
+
+    yellow:  '#ffffd7'
+
+    blue:    '#afffff'
+
+    magenta: '#ffd7ff'
+
+    cyan:    '#afffd7'
+
+    white:   '#eeeeee'
+
+
+  # Bright colors
+
+  bright:
+
+    black:   '#121212'
+
+    red:     '#ff8787'
+
+    green:   '#d7ffaf'
+
+    yellow:  '#ffffd7'
+
+    blue:    '#afffff'
+
+    magenta: '#ffd7ff'
+
+    cyan:    '#afffd7'
+
+    white:   '#eeeeee'
+
+
+# Colors (LuciusBlack)
+
+# colors:
+
+  # # Default colors
+
+  # primary:
+
+    # background: '#121212'
+
+    # foreground: '#d7d7d7'
+
+
+  # # Cursor colors
+
+  # cursor:
+
+    # text: '#121212'
+
+    # cursor: '#87afd7'
+
+
+  # # Normal colors
+
+  # normal:
+
+    # black:   '#121212'
+
+    # red:     '#ff5f5f'
+
+    # green:   '#afd787'
+
+    # yellow:  '#d7d7af'
+
+    # blue:    '#87d7ff'
+
+    # magenta: '#d7afd7'
+
+    # cyan:    '#87d7af'
+
+    # white:   '#d7d7d7'
+
+
+  # # Bright colors
+
+  # bright:
+
+    # black:   '#121212'
+
+    # red:     '#ff5f5f'
+
+    # green:   '#afd787'
+
+    # yellow:  '#d7d7af'
+
+    # blue:    '#87d7ff'
+
+    # magenta: '#d7afd7'
+
+    # cyan:    '#87d7af'
+
+    # white:   '#d7d7d7'
+
+
+# Theme (destroy-all-software)
+
+# Custom-theme based on destroy-all-software terminal
+
+# colors:
+
+  # primary:
+
+    # background: '#121212'
+
+    # foreground: '#d7d7d7'
+
+    
+
+  # normal:
+
+    # black: "#4e4e4e"
+
+    # red: "#ff6c60"
+
+    # green: "#a8ff60"
+
+    # yellow: "#ffffb6"
+
+    # blue: "#96cbfe"
+
+    # magenta: "#ff73fd"
+
+    # cyan: "#c6c5fe"
+
+    # white: "#eeeeee"
+
+
+  # bright:
+
+    # black: "#7c7c7c"
+
+    # red: "#ffb6b0"
+
+    # green: "#ceffab"
+
+    # yellow: "#ffffcb"
+
+    # blue: "#ffffcb"
+
+    # magenta: "#ff9cfe"
+
+    # cyan: "#dfdffe"
+
+    # white: "#ffffff"
+
+
+# # Colors (Gruvbox dark)
+
+# colors:
+
+  # # Default colors
+
+  # primary:
+
+    # # hard contrast: background = '#1d2021'
+
+    # background: '#282828'
+
+    # # soft contrast: background = '#32302f'
+
+    # foreground: '#ebdbb2'
+
+
+  # # Normal colors
+
+  # normal:
+
+    # black:   '#282828'
+
+    # red:     '#cc241d'
+
+    # green:   '#98971a'
+
+    # yellow:  '#d79921'
+
+    # blue:    '#458588'
+
+    # magenta: '#b16286'
+
+    # cyan:    '#689d6a'
+
+    # white:   '#a89984'
 
 
   # # Bright colors
