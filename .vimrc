@@ -30,10 +30,12 @@ set nostartofline
 set showmode
 set title
 set showcmd
+"set cursorline
+
+set t_Co=256
 
 call plug#begin('~/.vim/plugged')
 Plug 'git@github.com:kien/ctrlp.vim.git'
-" Plug 'git@github.com:posva/vim-vue.git'
 Plug 'eslint/eslint'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-syntastic/syntastic'
@@ -41,11 +43,13 @@ Plug 'leafOfTree/vim-vue-plugin'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'dracula/vim'
+Plug 'git@github.com:sheerun/vim-wombat-scheme.git'
 call plug#end()
 
-colorscheme dracula
+" colorscheme dracula
+" colorscheme zenburn
 
-" Syntastic shit"
+" Syntastic stuff"
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
